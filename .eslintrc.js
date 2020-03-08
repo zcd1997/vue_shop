@@ -15,7 +15,7 @@ module.exports = {
     'no-useless-return': "error",
     'quotes': [1, "single"],//引号类型 `` "" ''
     'space-before-function-paren': 0, //方法名后空格
-    'semi': [2, "always"],//语句强制分号结尾
+    'semi':0,//语句强制分号结尾
     // keyword 前后需要空格
     'keyword-spacing': [
       2,
