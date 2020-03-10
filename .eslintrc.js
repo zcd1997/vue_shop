@@ -16,9 +16,11 @@ module.exports = {
     'quotes': 0,//引号类型 `` "" ''
     'quote-props':0,
     'space-before-function-paren': 0, //方法名后空格
-    'semi':0,//语句强制分号结尾
+    'semi':0,//语句强制分号结尾，
+    'no-useless-return':0,
     // keyword 前后需要空格
     'key-spacing':0,
+    'object-curly-spacing':0,
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
